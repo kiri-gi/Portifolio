@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em contato!</title>
+    <link rel="stylesheet" href="styles/style.css">
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="contact.html">Entre em contato</a>
+            <a class="cabecalho__menu__link" href="Projetos.html">Meus Projetos</a>
+        </nav>
+    </header>
+    <main>
+        <section class="body__contato">
+            <h2 class="fazer__contato">Contato</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu Nome" autocomplete="off" class="caixa__texto" required>
+                <label>Email</label>
+                <input type="text" name="email" placeholder="Digite seu email" class="caixa__texto" required>
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <button type="submit" class="botao__enviar">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="fbb9c48f-f4b6-4b16-ba09-d4e5a7e60029">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="rodape">Desenvolvido por: Eu mesmo ❤</p>
+    </footer>
+    
+</body>
+</html>
